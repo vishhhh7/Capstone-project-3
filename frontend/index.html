@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AWS Multi-Tier Web Application</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e40af);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:1000px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,0.3);
+}
+
+h1{
+    color:#2563eb;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.status{
+    background:#22c55e;
+    color:white;
+    display:inline-block;
+    padding:12px 25px;
+    border-radius:10px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.box{
+    background:#f8fafc;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.box p{
+    color:#555;
+}
+
+.architecture{
+    margin-top:35px;
+    background:#eff6ff;
+    padding:20px;
+    border-radius:15px;
+}
+
+.architecture h2{
+    color:#1e40af;
+    margin-bottom:10px;
+}
+
+.footer{
+    margin-top:30px;
+    border-top:1px solid #ddd;
+    padding-top:20px;
+}
+
+.footer p{
+    margin:8px 0;
+    color:#555;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Multi-Tier Web Application</h1>
+
+<p class="subtitle">
+Production-Ready Architecture Deployed on AWS Cloud
+</p>
+
+<div class="status">
+Application Running Successfully
+</div>
+
+<div class="grid">
+
+<div class="box">
+<h3>Frontend Tier</h3>
+<p>Amazon EC2 + Apache</p>
+</div>
+
+<div class="box">
+<h3>Backend Tier</h3>
+<p>Python Flask API</p>
+</div>
+
+<div class="box">
+<h3>Database Tier</h3>
+<p>Amazon RDS MySQL</p>
+</div>
+
+</div>
+
+<div class="architecture">
+
+<h2>Architecture Flow</h2>
+
+<p>
+Users → Application Load Balancer → Frontend EC2 →
+Backend EC2 → Amazon RDS
+</p>
+
+</div>
+
+<div class="footer">
+
+<p><strong>AWS Services:</strong> EC2, RDS, Application Load Balancer</p>
+
+<p><strong>Features:</strong> Scalable, Secure, Multi-Tier Architecture</p>
+
+<p><strong>Developed By:</strong> Vishakha Mantalwad</p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

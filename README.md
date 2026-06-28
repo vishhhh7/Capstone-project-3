@@ -1,4 +1,4 @@
-# Multi-Tier Web App Deployment on AWS
+# Multi-Tier Web App Deployment on AWS 
 
 ## Overview
 
